@@ -3,6 +3,6 @@
 import datatime
 import pandas as pd
 
-input (currentMonth)
+currentMonth = input (enter the YearMonth)
 x = pd.to_datetime(currentMonth,format = '%Y%m')
 print(currentMonth.strftime('%Y%m')) 
